@@ -1,0 +1,12 @@
+html {
+width: 480px; 
+}
+
+header, footer {
+  padding: 5px 15px;
+  background-color: #f2dcbb;
+  }
+main {
+  padding: 5px 15px;
+  background-color : #f9f7cf;
+}
