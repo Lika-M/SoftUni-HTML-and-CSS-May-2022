@@ -1,0 +1,115 @@
+#section__articles {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 64px 0 calc(64px - 32px) 0;
+}
+
+#section__articles .title {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+}
+/*
+Articles list elements 
+ */
+
+ .articles li {
+     display: inline-block;
+     width: 30%;
+     vertical-align: top;
+     margin-right: 4.5%;
+     margin-bottom: 32px ;
+ }
+
+ .articles li:nth-child(3n+3) {
+     margin-right: 0;
+ }
+
+ /* <<--Using :not logic-->>----It's the same:
+ .articles li:not(:nth-child(3n+3)) {
+    margin-right: 4.5%;
+} */
+
+ 
+/* 
+articles component
+--------------------------------------------
+ */
+.article {
+    width: 100%;
+}
+
+.article .article__img__wrapper {
+    aspect-ratio: 1/1;
+    border-radius: 21px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.article .article__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; 
+}
+
+.article .article__title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 1.02px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.article .article__description {
+    font-size: 16px;
+    font-weight: 300;
+    color: grey;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+/* 
+tag component
+-------------------------------------------
+ */
+
+.tag {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+/*
+with "--" show modifiers
+----------------------------------------- 
+*/
+
+.tag.tag--info {
+    background-color: lightblue;
+    color: rgb(50, 50, 93);
+    border: solid 1px rgb(160, 197, 211);
+}
+
+.tag.tag--success {
+    background-color: lightgreen;
+    color: rgb(45, 87, 45);
+    border: solid 1px rgb(123, 206, 123);
+}
+
+.tag.tag--danger {
+    background-color: rgb(251, 199, 199);
+    color: rgb(109, 55, 55);
+    border: solid 1px rgb(218, 171, 171);
+}
+
+.tag.tag--warn {
+    background-color: rgb(253, 253, 156);
+    color: rgb(199, 199, 88);
+    border: solid 1px rgb(185, 185, 156);
+}
