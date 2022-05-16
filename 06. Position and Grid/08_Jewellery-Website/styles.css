@@ -1,0 +1,27 @@
+main {
+    box-sizing: border-box;
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+
+
+section h3 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+section  span {
+    padding-left: 3px;
+    color: grey;
+}
+
+section div {
+    position: relative;
+    bottom: 50px;
+    left: 8px;
+}
