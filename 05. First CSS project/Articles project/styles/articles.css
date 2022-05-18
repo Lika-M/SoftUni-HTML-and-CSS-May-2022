@@ -1,37 +1,27 @@
-#section__articles {
+#articles {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 64px 0 calc(64px - 32px) 0;
+    margin: 75px auto 25px auto;
+    padding: 75px 0 0 2rem;
 }
 
-#section__articles .title {
-    font-size: 28px;
+#articles .title {
     text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 64px;
+    font-size: 2rem;
     font-weight: bold;
     letter-spacing: 1.1px;
+    margin: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 64px;
 }
-/*
-Articles list elements 
- */
 
- .articles li {
+.articles li {
      display: inline-block;
-     width: 30%;
+     max-width: 28%;
      vertical-align: top;
      margin-right: 4.5%;
      margin-bottom: 32px ;
- }
+}
 
- .articles li:nth-child(3n+3) {
-     margin-right: 0;
- }
-
- /* <<--Using :not logic-->>----It's the same:
- .articles li:not(:nth-child(3n+3)) {
-    margin-right: 4.5%;
-} */
 
  
 /* 
@@ -97,7 +87,7 @@ with "--" show modifiers
 }
 
 .tag.tag--success {
-    background-color: lightgreen;
+    background-color:  #caf599;
     color: rgb(45, 87, 45);
     border: solid 1px rgb(123, 206, 123);
 }

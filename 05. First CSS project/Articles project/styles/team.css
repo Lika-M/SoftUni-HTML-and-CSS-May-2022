@@ -1,0 +1,95 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+#team {
+    padding: 80px 0 80px 0;
+}
+
+#team .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    margin: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+#team .team-members {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+#team .team-member {
+    max-width: 300px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#team .team-member img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    
+}
+
+#team .team-member::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:  #91cc48;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#team .team-member .info {
+    position: absolute;
+    bottom: -195px;
+    left: 0;
+    padding: 0 1rem;
+    margin-bottom: 0.8rem;
+    z-index: 1;
+    transition: bottom 300ms ease-in-out;
+}
+
+#team .team-member .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#team .team-member .job {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+#team .team-member .about {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+    width: 185px;
+}
+
+#team .team-member .contact li {
+    display: inline-block;
+}
+
+#team .team-member .info li a {
+    margin: 0 .2rem;
+    font-size: 28px;
+    color: #fff;
+    transition: color 300ms ease-in-out;
+}
+
+#team .team-member .info:hover {
+    bottom: 0;
+} 
+
+
