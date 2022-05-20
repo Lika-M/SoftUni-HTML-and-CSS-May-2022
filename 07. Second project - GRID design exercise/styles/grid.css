@@ -1,0 +1,116 @@
+
+.grid-container {
+    background-color: #1A1A1A;
+    color: #fff;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 1fr;
+
+    grid-template-areas: 
+    ". . . . . . . ."
+    ". heading heading heading heading heading . ."
+    ". heading heading heading heading heading . ."
+    ". heading heading heading heading heading join ."
+    ". karen-img karen-img . about about . grey-square"
+    ". karen-img karen-img . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . .";
+
+    position: relative;
+    z-index: 1;
+}
+
+
+.heading {
+    grid-area: heading;
+}
+.heading h1 {
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 4rem;
+}
+
+.heading h2 {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    border-left: 1px solid  #FFFFFF;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.join {
+    grid-area: join;
+    aspect-ratio: 1/1 ;
+    background-color: #FEBE02;
+    position: relative;
+}
+
+.join span i {
+    padding: 1rem;
+    color: #1A1A1A;
+}
+
+.join svg {
+    position: absolute;
+    right: 0;
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+
+.join h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 1rem;
+    color: #1A1A1A;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+}
+
+.karen-img {
+    grid-area: karen-img;
+    aspect-ratio: 1/1;
+}
+
+.karen-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    grid-area: about;
+}
+
+.about h2 {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+    color:  #FFFFFF;
+    border-left: 1px solid  #FFFFFF;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    line-height: 1.8rem;
+    padding-left: 1rem;
+}
+
+.grey-square {
+    grid-area: grey-square;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.12;
+    aspect-ratio: 1/1;
+}
