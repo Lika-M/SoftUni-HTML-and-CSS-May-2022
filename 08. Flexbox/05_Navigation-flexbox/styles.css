@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 30px 50px calc(100vh - 30px);
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+header p {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    padding: 10px;
+    list-style-type: none;   
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+.gallery {
+    width: 100vw;
+    padding: 60px;
+    background-color: #EEEEEE;
+}
+.gallery ul {
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery ul li {
+    padding: 25px 15px;
+    margin: 20px;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    border: 12px solid black;
+    box-shadow: inset  0 0 5px black;
+}
+
+
+
+

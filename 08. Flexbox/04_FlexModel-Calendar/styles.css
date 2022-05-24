@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 65vw;
+    margin: 80px auto;
+    
+}
+
+.container, section{
+    display: flex;
+    justify-content: center;
+}
+section {
+    border: 1px solid black;
+}
+
+span {
+    border: 1px solid black;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.notes {
+    flex-direction: column;
+    border-left: none;
+}
+
+.week {
+    flex-wrap: wrap;
+    border-right: none;
+}
+
+.week span {
+    padding-top: 25px;
+}
+.heading {
+    flex-basis: 100%;
+}
+.day {
+    flex-grow: 1;
+}
+
+.notes span {
+    padding: 5px 30px 80px 30px;
+    flex-grow: 1;
+   
+}
