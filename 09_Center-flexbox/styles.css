@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    /* align items of parent is equal to 
+    align-self: center; */
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 6px;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card p {
+    font-family: Helvetica, sans-serif;
+}
