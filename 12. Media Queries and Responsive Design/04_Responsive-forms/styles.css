@@ -1,0 +1,100 @@
+@import 'https://use.fontawesome.com/releases/v6.1.1/css/all.css';
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+}
+
+.container fieldset {
+    background-color: #F8F8F8;
+    border: none;
+    box-shadow: 0 0 5px grey;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px; 
+    position: relative;
+}
+
+legend {
+    display: inline-block;
+    width: 150px;
+    background-color:  #F8F8F8;
+    border-radius: 4px;
+    box-shadow: 0 0 5px grey;
+    padding: 5px 20px;
+    position: absolute;
+    top: -15px;  
+    left:-1px
+}
+
+.user, .pass {
+    display: flex;
+    position: relative;
+}
+
+label {
+   padding: 5px;
+}
+
+input {
+    padding: 5px;
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+i {
+    position: absolute;
+    left: 85px;
+    top: 6px;
+    color: black;
+}
+
+input:focus + i {
+   opacity: 0;   
+}
+
+.container button {
+    background-color: black;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+
+@media (max-width: 300px){
+    .user, .pass  {
+        flex-direction: column;
+    }
+
+    i {
+        top:33px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 600px){
+    .container {
+        width: 400px;  
+    }
+
+    .user, .pass  {
+        flex-direction: column;
+    }
+
+    i {
+        top:33px;
+        left: 10px;
+    }
+}
