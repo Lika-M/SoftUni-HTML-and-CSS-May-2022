@@ -1,0 +1,60 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(238, 238, 238) ;
+}
+.card {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 80px;
+    border-radius: 6px;
+    overflow: hidden; 
+    font-size: 1.2rem
+}
+
+div:nth-child(1){
+    height: 55%;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+div:nth-child(2){
+    height:45%;
+    padding: 30px 40px;
+    position: relative;
+    font-size: 1em;
+}
+
+div:nth-child(2) h2{
+    margin-top: 0;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+button {
+    position: absolute;
+    bottom: 69px;
+    right: 0;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    background-color: rgb(0, 153, 0) ;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+   .card {
+    margin-left: 5%;
+   }
+}

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow&family=Roboto+Slab&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+html {
+   font-size:16px;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23e6efed' fill-opacity='0.3'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+*, 
+::before, 
+::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+.nav {
+    padding: 20px 10px 20px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.nav-logo h1 {
+    margin: 0;
+    color: #68347B;
+}
+
+.nav-logo span {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 0 25px;
+    font-size: 0.9;
+}
+
+.nav-list li a {
+    color: #3C3C3C;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.nav li.menu {
+  display: none;
+}
+
+.nav i {
+    padding-right: 4px;
+}
+.stuff-section {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.stuff {
+    width: 100%;
+    margin-right: 80px;
+}
+
+.stuff-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stuff-content {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.stuff-email {
+display: inline;
+margin-top: 20px;
+}
+
+.globe i {
+    font-size: 170px;
+}
+
+.stuff a {
+    display: inline-block;
+    font-size: .9em;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.team-section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.team-section h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 0 80px 80px;
+}
+
+.team-section h2::after {
+    content: '';
+    position: relative;
+    right: 120px;
+    top: 30px;
+    display: inline-block;
+    width: 80px;
+    border-bottom: 2px solid;
+    margin-top: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 30px;
+}
+.card { 
+    width: 280px;
+    margin: 30px 20px;
+}
+
+.card-title, 
+.card-subtitle,
+.card-content {
+    text-align: center;
+}
+
+.card-content {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+.card-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.subscript-section {
+    height: 230px;
+    background-color: #68347B;
+    padding: 20px 0;
+}
+.subscript-section-title {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px 80px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.subscript-section-title::after {
+    content: '';
+    position: relative;
+    right: 270px;
+    top: 30px;
+    display: inline-block;
+    width: 80px;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+
+.subscript-section-subscription {
+    display: flex;
+    justify-content: center;
+}
+
+.subscript-section-subscription input {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    width: 320px;
+    margin-right: 10px;
+}
+
+.subscript-section-subscription a {
+    font-weight: bold;
+    background-color: #fff;
+    color: black;   
+    border: 1px solid black;
+    padding: 7px 14px;
+}
+
+.testimonials-section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+
+
+.testimonials-section h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px 80px;
+    font-size: 40px;
+}
+
+.testimonials-section h2::after {
+    content: '';
+    position: relative;
+    right: 165px;
+    top: 30px;
+    display: inline-block;
+    width: 80px;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+
+.footer {
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    box-shadow: inset 1px 1px 10px grey;
+}
+
+
+/* 
+TOP SHADOW ONLY - doesn't work
+.footer::before {
+    content: "";
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-height: 200px;
+    background-color: red;
+    box-shadow: inset 1px 1px 10px 10px grey;
+    z-index: 100;
+  } */
+
+
+.footer-description, 
+.footer-sitemap,
+.footer-contacts {
+    max-width: 350px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer a, p {
+    font-size: 14px;;
+}
+
+.footer-sitemap {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: space-between;
+   max-width: 382px;
+   padding-bottom: 10px;
+}
+
+.footer-sitemap ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 ;
+}
+
+.footer-sitemap ul li {
+    display: inline-block;
+    width: 150px;
+    margin-right: 30px;
+}
+
+.footer-sitemap ul li a {
+    color: black;
+}
+.footer-sitemap h3 {
+    margin: 0;
+}
+
+.footer-contacts ul {
+    margin: 0;
+    padding: 0 ;
+}
+
+.footer-contacts ul a {
+    color: black;
+}
+
+.footer-contacts ul a i {
+    padding-right: 4px;
+}
+
+@media all and (max-width:1200px){
+    
+    .nav {
+        padding: 20px 10px 20px 80px;
+    }
+
+    .nav-list {
+        padding-top: 20px;
+    }
+
+}
+
+@media all and (max-width: 900px) {
+
+    .nav {
+        padding: 20px 10px 20px 60px;
+    }
+    .nav-list li{
+        display: none;
+        padding: 0 15px;
+    }
+
+    .nav-list li {
+        margin: 15px;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+
+    .nav li.menu {
+       display: block;
+    }
+}
