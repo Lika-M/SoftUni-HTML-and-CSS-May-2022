@@ -1,0 +1,73 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+/* <i class="fa-solid fa-calendar"></i> */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap');
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    max-width: 900px;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px rgb(172, 172, 172);
+}
+
+.heading {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: #FFA200;
+    padding: 15px 20px;
+}
+
+.heading i {
+    font-size: 16px;
+}
+
+.heading span {
+    margin-left: 8px;
+    font-size: 12px;
+}
+.date {
+    color: #fff;
+    padding: 20px auto;
+    font-size: 12px;
+}
+
+.article {
+    padding: 22px;
+}
+
+.article:first-of-type{
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.hour {
+    font-size: 10px;
+    color: rgb(161, 160, 160);
+}
+
+.article-heading {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  
+}
+
+.article-text {
+    font-size: 12px;
+    line-height: 1.7;
+}
+
