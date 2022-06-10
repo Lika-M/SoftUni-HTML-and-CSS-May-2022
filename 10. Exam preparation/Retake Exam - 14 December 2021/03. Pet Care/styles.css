@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p, a, span, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo {
+    max-width: 100px;
+}
+
+nav .logo img {
+    width: 100%;
+}
+
+nav .list {
+    display: flex;
+    background-color: #fff;
+}
+
+nav .list li {
+    margin-inline: 15px;
+}
+
+nav .list li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #102955;
+}
+
+.header-bg {  
+    width: 100vw;
+}
+
+.header-bg img{
+   width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 138px;
+    left: 0;
+}
+
+.header-content-img {
+    height: 645px;
+}
+
+.header-content-img img {
+    height: 100%;
+}
+
+.header-content-text {
+    color: #fff;
+    padding-left: 50px;
+    position: relative;
+    top: -94px;
+    left: 195px;
+
+}
+.text {
+    margin-bottom: 50px;
+}
+
+.header-content-text h1 {
+    font-size: 55px;
+    font-weight: 200;
+}
+
+.header-content-text h2 {
+    font-size: 55px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.header-content-text p {
+    line-height: 2rem;
+    font-size: 14px;
+}
+
+.header-content-text  a {
+    background-color: #fff;
+    color: #EC3215;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.care {
+    margin: 150px 150px 100px 150px;
+    text-align: center;
+}
+
+.care-services{
+    margin: 100px auto;
+    width: 500px;
+}
+
+.care-services h2 {
+    font-size: 40px;
+}
+
+.care-services p {
+    font-size: 14px;
+    color: grey;
+}
+
+.care-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    padding: 100px 20px 50px 20px;
+    border: 1px solid #FFC0BC;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.card .wrapper{
+    position: absolute;
+    top: 54px;
+    left: 82px;
+    z-index: -1;
+}
+
+.card img:last-of-type {
+    margin-bottom: 50px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card  p{
+    font-size: 14px;
+    line-height: 2rem;
+    color: rgb(165, 163, 163);
+}
+
+.cat {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 100px 150px 50px 150px;
+}
+
+.cat-image {
+    width: 40%;
+    height: 40%;
+}
+
+.cat-image img {
+    width: 100%;
+}
+
+.cat h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 0.5;
+}
+
+.cat h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cat p {
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+    line-height: 1.5rem;
+}
+
+.cat-text p:last-of-type {
+    margin-bottom: 60px;
+}
+
+.cat a{
+    background-color: #EC3215;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact img {
+    width: 100vw;
+    object-fit: contain;
+}
+
+.contact-info {
+    position: absolute;
+    top: 130px;
+    left: 260px;
+}
+.contact-info-phone {
+    position: absolute;
+    top: 190px;
+    left: 260px;
+}
+
+.contact-info-text {
+    margin: -45px auto;
+    text-align: center;
+}
+
+.contact-info-text h2 {   
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contact-info-text p {
+    width: 700px;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.contact-info-phone a{
+    background-color: #fff;
+    color: #EC3215;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.contact-info-phone span {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer {
+    padding: 80px 150px 30px 200px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer article{
+    width: 220px;
+
+}
+
+footer h3 {
+    font-weight: 600;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li, footer a, footer p {
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+    line-height: 2rem;
+}
+
+footer figure {
+    margin-top: 0;
+    margin-left: 0;
+    width: 50%;
+}
+
+footer figure img{
+    width: 100%;
+}
+
+
