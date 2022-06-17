@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #41BEAD;
+    padding: 10px 80px;
+}
+
+.nav-logo img {
+    width: 100px;
+}
+
+.nav-nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-nav-list a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.training {
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    background-color: #FFB402;
+}
+
+.training-title {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.training-text {
+    padding: 0 400px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.trainers-admins {
+    padding: 60px 120px 200px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.trainers-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 50%;
+    gap: 1%;
+}
+
+.trainers-admin-img,
+.trainers-team-trainer-img {
+    flex-basis: 160px;
+    height: 160px;
+    border: 6px solid #41BEAD;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.trainers-admin-img img,
+.trainers-team-trainer-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.trainers-admin-info {
+    flex-basis: 65%;
+}
+
+.trainers-admin-name,
+.trainers-team-trainer-name {
+    color: #41BEAD;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trainers-admin-position,
+.trainers-team-trainer-position {
+    font-size: 12px;
+    color: rgb(179, 179, 179);
+    margin-top: 8px;
+    text-align: center;
+}
+
+.trainers-admin-description {
+    flex-basis: 150px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: grey;
+    font-weight: bold;
+}
+
+.trainers-team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+    padding: 0 200px 60px 200px;
+    justify-content: space-between;
+}
+
+.form {
+    background-color: #66B9F8;
+    text-align: center;
+    color: #fff;
+}
+
+.border-1 {
+    width: 100%;
+    height: 10px;
+    background-color: #D9EDFE;
+    display: block;
+}
+
+.form-title {
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.form-text {
+    margin: 0 250px 30px;
+}
+
+.border-2 {
+    width: 100%;
+    height: 10px;
+    background-color: #80A1BB;
+    display: block;
+}
+
+.form-content {
+    vertical-align: center;
+    margin-bottom: 100px;
+}
+
+.form-content input {
+    padding: 13px;
+    border: 1px solid #fff;
+    background-color: #66B9F8;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+.form-content input::placeholder {
+    color: #fff;
+}
+
+.form-content input:last-of-type {
+    border-radius: 20px;
+    background-color: #FF9100;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    box-shadow: 1px 5px 10px rgb(90, 89, 89);
+}
+
+footer {
+    background-color: #565656;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0px 100px;
+}
+
+.item-list {
+    padding: 0;
+    font-size: 14px;
+}
+
+.item-list a,
+.item-list .item-icons i {
+    color: #fff;
+}
+
+.item-icons i{
+    margin-right: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+.item {
+    font-size: 16px;
+}
+
+.item li {
+    line-height: 2;
+}
