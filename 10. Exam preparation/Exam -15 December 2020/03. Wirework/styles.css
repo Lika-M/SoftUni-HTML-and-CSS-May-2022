@@ -1,0 +1,196 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+/* 
+body {
+    margin: 20px;
+} */
+.nav {
+    margin: 10px 50px;
+}
+.nav, .nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list ul {
+    margin: 10px 0;
+}
+
+.nav-header {
+    display: flex;
+    align-items:flex-end;
+}
+
+
+.nav-header h1 {
+    color: black;
+    padding-right: 15px;
+    border-right: 2px solid rgb(191, 189, 189);
+    font-size: 36px;
+    font-weight: bolder;
+   
+}
+
+.nav-header h3, .nav-list a {
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: 500;
+    color: #3F3F3E;
+    letter-spacing: .1rem;
+}
+
+
+.nav-list li {
+    padding: 20px 10px;
+    background-color: #ECECEC;
+    margin-right: 2px;
+}
+
+.nav-list li:first-of-type{
+    background-color: #E24E2A;
+}
+
+.nav-list li:first-of-type a {
+    color: #fff;
+}
+
+
+.about {
+    position: relative;
+}
+.about-description {
+    background-color: #E24E2A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.about-description p {
+    padding: 66px 80px;
+    text-align: center;
+    font-size: 18px;
+    color: #F7D2C8;
+    line-height: 1.5rem;
+}
+
+.about-description a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.security {
+    display: flex;
+    background-color: #3F3F3E;
+    padding: 70px 25px;
+}
+
+.security-item {
+    padding: 0 20px;
+    font-size: 16px;
+    /* align-items:flex-end; */
+}
+.security-item .wrapper {
+    display: inline-block;
+    margin: 15px auto;
+}
+
+.security-item .wrapper i{
+    padding: 20px;
+    background-color: #E24E2A;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.security-item-icon {
+display: flex;
+flex-direction: column;
+
+}
+.security-item-icon p{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(114, 112, 112);
+}
+
+.security-item > p{
+    color: rgb(114, 112, 112);
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.content {
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    color: #3F3F3E;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #939390;
+    margin-bottom: 30px;
+}
+
+.content a {
+    background-color: #1B9772;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 50px;
+    font-weight: 600;
+    letter-spacing: .3rem;
+}
+
+.footer-content {
+    display: flex;
+    background-color: #3F3F3E;
+    padding: 80px 25px 60px 25px;
+}
+.footer-content p:first-of-type {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.footer-content p:not(:first-of-type){
+    color: rgb(114, 112, 112);
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.footer-rights {
+    background-color: #1B9772;
+    padding: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-rights span {
+    color: #fff;
+    text-align: center;
+    opacity: 0.3;
+    letter-spacing: .1rem;
+}
+
+.footer-rights a {
+    color: #fff;
+    opacity:0.6;
+}
