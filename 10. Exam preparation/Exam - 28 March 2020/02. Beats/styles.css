@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("./reset.css");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+}
+
+header {
+    overflow: hidden;
+}
+
+.nav {
+    padding: 40px;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #979595;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    margin: 60px 0px 80px 100px;
+}
+
+.catalog-content {
+    flex-basis: 40%;
+    margin-right: 20px;
+}
+
+.catalog-content-title,
+.store-content-title {
+    font-size: 55px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.catalog-content-text {
+    font-size: 18px;
+    color: #575757;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+.catalog-content-link,
+.store-content-price-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    padding: 15px 50px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.catalog-img {
+    flex-basis: 60%;
+}
+
+.catalog-img img {
+    width: 100%;
+}
+
+.store {
+    background-color: #FBFCFF;
+    display: flex;
+    justify-content: center;
+    padding: 100px 80px 80px 80px;
+}
+
+.store-img,
+.store-content {
+    flex-basis: 50%;
+}
+
+.store-content {
+    margin: 20px;
+    position: relative;
+}
+
+.store-content-title {
+    font-size: 70px;
+    margin-bottom: 8px;
+    position: relative;
+    right: -80px;
+}
+
+.store-content-subtitle {
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 400;
+    right: -190px;
+    margin-bottom: 60px;
+}
+
+.store-content-subtitle .bold {
+    font-weight: 700;
+}
+
+.store-content-text {
+    font-size: 20px;
+    padding: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.store-content-price {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.store-content-price-1 {
+    margin-right: 20px;
+    font-size: 44px;
+}
+
+.store-content-price-link {
+    font-size: 14px;
+}
+
+
+.information {
+    background-color: #575757;
+    padding: 40px 150px;
+    text-align: center;
+}
+
+.information-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.information-content-logo {
+    margin-right: 20px;
+}
+
+.information-content-title {
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.information-content-title .bold,
+.information-link-text {
+    font-weight: 700;
+}
+
+.information-link {
+    font-size: 38px;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.information-link-text {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.best {
+    display: flex;
+}
+
+.best-content,
+.best-img {
+    flex-basis: 50%;
+}
+
+.best-content {
+    background-color: #DADADA;
+    display: flex;
+}
+
+.best-img img {
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.best-content-text-1 {
+    padding: 60px;
+    text-transform: uppercase;
+    font-size: 150px;
+    letter-spacing: -0.9rem;
+    font-weight: 700;
+}
+
+.best-content-text {
+    flex-basis: 52%;
+    text-align: center;
+}
+
+.best-content-img {
+    padding: 40px 0;
+}
+
+.best-content-img img {
+    width: 100%;
+}
+
+.best-content-text-2 {
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: -4px;
+}
+
+
+.best-content-text-2 .red {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FF0000;
+}
+
+.footer {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #787575;
+}
