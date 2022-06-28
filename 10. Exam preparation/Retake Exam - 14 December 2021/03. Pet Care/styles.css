@@ -3,13 +3,15 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
 }
 
-p, a, span, li {
-    font-family: 'Open Sans', sans-serif;
-}
 
 header {
     position: relative;
@@ -61,6 +63,14 @@ nav .list li a {
     left: 0;
 }
 
+.header-content-text {
+    color: #fff;
+    padding-left: 50px;
+    position: relative;
+    top: -94px;
+    left: 195px;
+}
+
 .header-content-img {
     height: 645px;
 }
@@ -69,21 +79,14 @@ nav .list li a {
     height: 100%;
 }
 
-.header-content-text {
-    color: #fff;
-    padding-left: 50px;
-    position: relative;
-    top: -94px;
-    left: 195px;
 
-}
 .text {
     margin-bottom: 50px;
 }
 
 .header-content-text h1 {
     font-size: 55px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .header-content-text h2 {

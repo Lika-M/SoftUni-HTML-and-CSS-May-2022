@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and/or padding*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote {
+    margin: 0;
+    /* padding: 0; */
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courgette', cursive;
+    background-color: #F0F0F0;
+}
+
+main {
+    padding: 50px 150px;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+}
+
+.titles {
+    position: relative;
+}
+.title {
+    font-size: 50px;
+    letter-spacing: .4rem;
+    font-weight: lighter;
+}
+
+.subtitle {
+    color: #CA1C24;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-inline: 409px;
+    letter-spacing: .1rem;
+    position: inherit;
+    right: -60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card {
+    justify-content: center;
+    width: 32%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 100%;
+    height: 190px
+}
+
+.card-content {
+    padding: 15px 15px 10px 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .more {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+} */
+
+
+.card-content h2,
+.card-content p {
+    margin-bottom: 10px;
+}
+
+
+.divider {
+    width: 98%;
+    background-color: #CA1C24;
+    height: 1px;
+    margin: 10px 0;
+}
+
+
+
+i {
+    padding: 2px 6px;
+    background-color: #CA1C24;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 6px;
+}

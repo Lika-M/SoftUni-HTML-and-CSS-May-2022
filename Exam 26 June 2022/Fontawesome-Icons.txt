@@ -1,0 +1,43 @@
+1. menu
+<i class="fa-solid fa-bars"></i>
+
+2. angle-right:
+<i class="fa-solid fa-angle-right"></i>
+
+3. facebook:
+<i class="fa-brands fa-facebook-f"></i>
+
+4. instagram:
+<i class="fa-brands fa-instagram"></i>
+
+5. twitter:
+<i class="fa-brands fa-twitter"></i>
+
+6. pinterest:
+<i class="fa-brands fa-pinterest-p"></i>
+
+7. LinkedIn
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-linkedin-in"></i>
+
+8. key:
+<i class="fas fa-key"></i>
+
+9. Везна:
+<i class="fas fa-balance-scale-right"></i>
+
+10. Unlock:
+<i class="fas fa-unlock-alt"></i>
+
+11. Wrench:
+<i class="fas fa-wrench"></i>
+
+
+12. Check:
+<i class="fa-solid fa-check"></i>
+
+13. Cross:
+<i class="fa-solid fa-xmark"></i>
+
+
+
